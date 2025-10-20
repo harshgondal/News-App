@@ -7,16 +7,16 @@ A full-stack news aggregation platform that fetches, categorizes, and displays n
 ## ✨ Features Implemented
 
 ### 🔍 **Multi-Source News Aggregation**
-Fetches news from RSS feeds and NewsAPI with automatic categorization and Redis-powered duplicate detection (20-500x faster).
+Fetches news from Indian Newspaper and NewsAPI with automatic categorization and Redis-powered duplicate detection (20-500x faster).
 
 ### 🎫 **Upcoming Events Tracking**
-Integrated with Ticketmaster and TheSportsDB APIs for real-time event tracking with smart filtering and automatic status updates.
+Integrated with APIs for real-time event tracking with smart filtering and automatic status updates.
 
 ### 🤖 **AI-Powered Analysis**
-Google Gemini AI integration for article analysis, sentiment detection, and interactive chat functionality.
+ AI integration for article analysis, sentiment detection, and interactive chat functionality.
 
 ### 🔐 **User Features**
-JWT authentication, Instagram-style bookmarks, personal dashboard, and saved articles management.
+Personal User features, Instagram-style bookmarks, personal dashboard, and saved articles management.
 
 ### ⚡ **Performance**
 Redis caching, automated cleanup, scheduled updates (5x/day), and graceful fallbacks for optimal performance.
@@ -26,8 +26,7 @@ Redis caching, automated cleanup, scheduled updates (5x/day), and graceful fallb
 ## 📦 Tech Stack
 
 **Frontend:** React, TypeScript, Vite, TailwindCSS, Framer Motion, Axios  
-**Backend:** Node.js, Express.js, MongoDB, Redis, JWT, Node-Cron  
-**APIs:** NewsAPI, Ticketmaster, TheSportsDB, Google Gemini AI  
+**Backend:** Node.js, Express.js, MongoDB, Redis
 
 ---
 
@@ -138,11 +137,6 @@ node server/scripts/clearEventCache.js
 ✅ Automated scheduled updates  
 
 ---
-
-## 👨‍💻 Author
-
-**Harsh Gondal**  
-GitHub: [@harshgondal](https://github.com/harshgondal)
 
 ---
 
