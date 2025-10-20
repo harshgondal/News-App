@@ -7,7 +7,7 @@ A full-stack news aggregation platform that fetches, categorizes, and displays n
 ## ✨ Features Implemented
 
 ### 🔍 **Multi-Source News Aggregation**
-Fetches news from Indian Newspaper and NewsAPI with automatic categorization and Redis-powered duplicate detection (20-500x faster).
+Fetches news from Indian Newspapers and NewsAPI with automatic categorization and Redis-powered duplicate detection (20-500x faster).
 
 ### 🎫 **Upcoming Events Tracking**
 Integrated with APIs for real-time event tracking with smart filtering and automatic status updates.
@@ -16,7 +16,7 @@ Integrated with APIs for real-time event tracking with smart filtering and autom
  AI integration for article analysis, sentiment detection, and interactive chat functionality.
 
 ### 🔐 **User Features**
-Personal User features, Instagram-style bookmarks, personal dashboard, and saved articles management.
+Personal User features like  bookmarks, personal dashboard, and saved articles section.
 
 ### ⚡ **Performance**
 Redis caching, automated cleanup, scheduled updates (5x/day), and graceful fallbacks for optimal performance.
@@ -132,7 +132,7 @@ node server/scripts/clearEventCache.js
 ✅ Event tracking (sports & entertainment)  
 ✅ User authentication & bookmarks  
 ✅ Redis caching (20-500x faster)  
-✅ Dark mode support  
+✅ Multi theme supoort
 ✅ Responsive design  
 ✅ Automated scheduled updates  
 
